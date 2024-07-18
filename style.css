@@ -1,0 +1,309 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+
+.main {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.5),
+            rgb(0, 0, 0, 0.9)),
+        url(./bacground.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 200px;
+}
+
+.main nav .left img {
+    width: 160px;
+}
+
+.main nav .left img:hover {
+    cursor: pointer;
+}
+
+.main nav .right #language {
+    height: 28px;
+    width: 100px;
+    text-align: center;
+    font-size: inherit;
+    background: transparent;
+    color: white;
+    border-radius: 3px;
+}
+
+.main nav .right #language option {
+    color: black;
+}
+
+.main nav .right button {
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    width: 80px;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.main nav .right button:hover {
+    border: solid 2px black;
+}
+
+.main .form {
+    color: white;
+    text-align: center;
+    margin: 170px;
+    line-height: 50px;
+}
+
+.main .form h1 {
+    font-size: 45px;
+}
+
+.main .form p {
+    font-size: larger;
+}
+
+.main .form input[type="email"] {
+    background: transparent;
+    border: none;
+    height: 50px;
+    border-radius: 3px;
+    width: 350px;
+    color: white;
+    font-size: inherit;
+    padding: 0 10px;
+    outline: green solid 1px;
+}
+
+.main .form input[type="button"] {
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    width: 180px;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.main .form input[type="button"]:hover {
+    border: solid 2px rgb(109, 0, 0);
+}
+
+.main2 {
+    display: flex;
+    padding: 50px 8%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    height: 90vh;
+    margin: 7px 0;
+}
+
+.main2 .left h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.main2 .left p {
+    font-size: 25px;
+}
+
+.main2 .right {
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.main2 .right img {
+    width: 550px;
+    position: absolute;
+}
+
+.main2 .right video {
+    width: 430px;
+    position: relative;
+    left: 70px;
+}
+
+.main3 {
+    display: flex;
+    padding: 50px 8%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    height: 90vh;
+    margin: 7px 0;
+}
+
+.main3 .right h1 {
+    font-size: 45px;
+}
+
+.main3 .right p {
+    font-size: 25px;
+}
+
+.main3 .left {
+    background-size: cover;
+    height: 400px;
+}
+
+.main4 {
+    display: flex;
+    padding: 50px 8%;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    height: 90vh;
+    margin: auto;
+    width: 100%;
+}
+
+.main4 .left {
+    width: 50%;
+}
+
+.main4 .left h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.main4 .left p {
+    font-size: 25px;
+}
+
+.main4 .right {
+    display: flex;
+    width: 50%;
+}
+
+.main4 .right video {
+    height: 310px;
+    width: 340px;
+    position: relative;
+    left: 10vh;
+    bottom: 20px;
+}
+
+.main4 .right img {
+    position: relative;
+    width: 600px;
+    right: 50vh;
+}
+
+.main5 {
+    display: flex;
+    padding: 50px 8%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    height: 90vh;
+    margin: 7px 0;
+}
+
+.main5 .right h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+   
+}
+
+.main5 .right p {
+    font-size: 25px;
+}
+
+.main6 {
+    text-align: center;
+    list-style: none;
+    background-color: black;
+    margin-top: 7px 0 50px 0;
+    height: 120vh;
+}
+
+.main6 h1 {
+    font-size: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+.main6 li {
+    font-size: 20px;
+    background-color: rgb(54, 53, 53);
+    width: 80%;
+    height: 80px;
+    margin: 10px 150px;
+    padding: 25px;
+    text-align: left;
+}
+
+.main6 p {
+    margin: 30px 0 10px 20px;
+    font-size: 20px;
+}
+
+.main6 input[type="email"] {
+    background: transparent;
+    border: none;
+    height: 50px;
+    border-radius: 3px;
+    width: 350px;
+    color: white;
+    font-size: inherit;
+    padding: 0 10px;
+    outline: green solid 1px;
+}
+
+.main6 input[type="button"] {
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    width: 180px;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+footer .f1 .bold{
+    font-weight: bold;
+    text-decoration: underline;
+}
+footer {
+display: flex;
+list-style-type: none;
+justify-content: space-around;
+padding: 45px 200px 45px 100px;
+line-height: 40px;
+background-color: black;
+margin-top: 8px;
+text-decoration: none;
+color: rgb(160, 160, 160);
+}
+footer .f1 .langBtn{
+    height: 28px;
+    width: 100px;
+    text-align: center;
+    font-size: inherit;
+    background: transparent;
+    color: white;
+    border-radius: 3px;
+}
